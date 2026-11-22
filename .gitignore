@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Üretilen dosyalar (python -m radar_classifier.train ile yeniden oluşur)
+models/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editör / işletim sistemi
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
